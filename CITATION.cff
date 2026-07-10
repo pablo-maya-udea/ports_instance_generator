@@ -19,9 +19,7 @@ license: MIT
 version: "1.0.0"
 date-released: "2026-07-10"
 
-# Uncomment once you have archived a tagged release on Zenodo, and cite this DOI
-# in the paper rather than the GitHub URL.
-# doi: "10.5281/zenodo.<ZENODO RECORD ID>"
+doi: "10.5281/zenodo.21298924"
 
 keywords:
   - operations research
