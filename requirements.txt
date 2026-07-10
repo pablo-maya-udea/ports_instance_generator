@@ -1,0 +1,10 @@
+# Tested on Python 3.13.13. Requires Python >= 3.9 (pathlib, f-strings, dict merge).
+#
+# The instance values depend on NumPy's legacy RandomState stream, whose
+# reproducibility across versions is guaranteed by NEP 19. The pin below records
+# the version used to generate the published instances; a different NumPy should
+# still reproduce them, and tests/test_generator.py verifies exactly that.
+numpy==2.5.1
+
+# Test-only dependency. Not needed to generate instances.
+pytest==9.1.1

@@ -1,0 +1,46 @@
+# ---------------------------------------------------------------------------
+# TODO before pushing: replace every <PLACEHOLDER> below.
+# Validate at https://citation-file-format.github.io/cff-initializer-javascript/
+# ---------------------------------------------------------------------------
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "ports_instance_generator: random instance generator for the port scheduling problem"
+abstract: >-
+  Generates reproducible synthetic instances of a port scheduling problem from a
+  port layout graph. Ships enter the port network at a sea entrance node, sail to
+  an assigned berth, unload, and sail back out. Instance parameters (travel,
+  release, scheduled, unloading and security times, and per-arc time windows) are
+  drawn from a seeded random stream.
+type: software
+authors:
+  - family-names: "<YOUR FAMILY NAME>"
+    given-names: "<YOUR GIVEN NAME>"
+    orcid: "https://orcid.org/<0000-0000-0000-0000>"   # delete this line if you have no ORCID
+    affiliation: "<YOUR INSTITUTION>"
+    email: "endorgobio@gmail.com"
+repository-code: "https://github.com/<YOUR GITHUB USER>/ports_instance_generator"
+license: MIT
+version: "1.0.0"
+date-released: "<YYYY-MM-DD>"
+
+# Uncomment once you have archived a tagged release on Zenodo, and cite this DOI
+# in the paper rather than the GitHub URL.
+# doi: "10.5281/zenodo.<ZENODO RECORD ID>"
+
+keywords:
+  - operations research
+  - port scheduling
+  - instance generator
+  - mixed integer programming
+  - reproducibility
+
+# The paper this software accompanies.
+preferred-citation:
+  type: article
+  title: "<PAPER TITLE>"
+  authors:
+    - family-names: "<YOUR FAMILY NAME>"
+      given-names: "<YOUR GIVEN NAME>"
+  journal: "<JOURNAL NAME>"
+  year: <YYYY>
+  # doi: "<PAPER DOI>"

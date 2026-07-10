@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
+
+# Generated instances -- regenerate from a seed, never commit
+instance.json
+instance_*.json
+data_gen.json
+
+# Experiment outputs
+*.csv
+*.log
+temp-plot.html
+
+# Environments
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.spyproject/
+.DS_Store
+Thumbs.db
