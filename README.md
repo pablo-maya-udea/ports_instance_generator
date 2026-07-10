@@ -1,7 +1,8 @@
 # ports_instance_generator
 
 Reproducible random instance generator for the port scheduling problem, released as
-the computational annex of *\<PAPER TITLE\>*.
+the computational annex of Restricted two-way channel access flow optimization in 
+multi-port terminals under tidal conditions.
 
 Ships arrive at a port, sail through a channel network from a single sea entrance to
 an assigned berth, unload, and sail back out. This tool generates synthetic instances
