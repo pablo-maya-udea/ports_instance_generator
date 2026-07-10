@@ -1,7 +1,3 @@
-# ---------------------------------------------------------------------------
-# TODO before pushing: replace every <PLACEHOLDER> below.
-# Validate at https://citation-file-format.github.io/cff-initializer-javascript/
-# ---------------------------------------------------------------------------
 cff-version: 1.2.0
 message: "If you use this software, please cite both the software and the paper."
 title: "ports_instance_generator: random instance generator for the port scheduling problem"
@@ -13,15 +9,15 @@ abstract: >-
   drawn from a seeded random stream.
 type: software
 authors:
-  - family-names: "<YOUR FAMILY NAME>"
-    given-names: "<YOUR GIVEN NAME>"
-    orcid: "https://orcid.org/<0000-0000-0000-0000>"   # delete this line if you have no ORCID
-    affiliation: "<YOUR INSTITUTION>"
-    email: "endorgobio@gmail.com"
-repository-code: "https://github.com/<YOUR GITHUB USER>/ports_instance_generator"
+  - family-names: "Maya-Duque"
+    given-names: "Pablo"
+    orcid: "https://orcid.org/0000-0002-5348-8615>"   # delete this line if you have no ORCID
+    affiliation: "Universidad de Antioquia"
+    email: "pablo.maya@udea.edu.co
+repository-code: "https://github.com/pablo-maya-udea/ports_instance_generator"
 license: MIT
 version: "1.0.0"
-date-released: "<YYYY-MM-DD>"
+date-released: "2026-07-10"
 
 # Uncomment once you have archived a tagged release on Zenodo, and cite this DOI
 # in the paper rather than the GitHub URL.
@@ -37,10 +33,10 @@ keywords:
 # The paper this software accompanies.
 preferred-citation:
   type: article
-  title: "<PAPER TITLE>"
+  title: "Restricted two-way channel access flow optimization in multi-port terminals under tidal conditions"
   authors:
-    - family-names: "<YOUR FAMILY NAME>"
-      given-names: "<YOUR GIVEN NAME>"
-  journal: "<JOURNAL NAME>"
-  year: <YYYY>
+    - family-names: "Maya-Duque"
+      given-names: "Pablo"
+  journal: "Maritime Business Review"
+  year: 2026
   # doi: "<PAPER DOI>"
