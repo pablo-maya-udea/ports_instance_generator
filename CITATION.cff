@@ -11,9 +11,9 @@ type: software
 authors:
   - family-names: "Maya-Duque"
     given-names: "Pablo"
-    orcid: "https://orcid.org/0000-0002-5348-8615>"   # delete this line if you have no ORCID
+    orcid: "https://orcid.org/0000-0002-5348-8615"   # delete this line if you have no ORCID
     affiliation: "Universidad de Antioquia"
-    email: "pablo.maya@udea.edu.co
+    email: "pablo.maya@udea.edu.co"
 repository-code: "https://github.com/pablo-maya-udea/ports_instance_generator"
 license: MIT
 version: "1.0.0"
