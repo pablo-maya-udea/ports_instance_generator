@@ -192,6 +192,24 @@ ports_instance_generator/
 └── README.md
 ```
 
+## Known limitations
+
+**`t_scheduled` is sampled from an inverted interval for a substantial
+fraction of ships.** The contractually scheduled arrival time of ship *s* is
+drawn from U(T_s + r_s, 2·T_s), where T_s is the total travel time of ship
+*s*'s complete out-and-back tour and r_s is its release time. The release
+time r_s is itself drawn from U(0, max_{s'} T_{s'}) — against the *global*
+maximum tour time — so any ship with a shorter-than-maximal route can receive
+r_s > T_s, which makes the lower bound T_s + r_s exceed the upper bound 2·T_s.
+
+These cases are not special-cased in the generator. The bounds are passed
+directly to `numpy.random.RandomState.uniform`, which does not validate that
+`low <= high`: it evaluates `low + (high - low) * U(0,1)` and, with a negative
+width, returns a value drawn uniformly from the reversed interval
+[2·T_s, T_s + r_s). No exception or warning is raised, and the draw remains
+deterministic under the fixed seed, so all published instances and their
+SHA-256 hashes are unaffected and fully reproducible.
+
 ---
 
 # Citation
